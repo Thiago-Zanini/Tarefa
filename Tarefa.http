@@ -1,0 +1,6 @@
+@Tarefa_HostAddress = http://localhost:5212
+
+GET {{Tarefa_HostAddress}}/api/v1/Tarefa
+Accept: application/json
+
+###

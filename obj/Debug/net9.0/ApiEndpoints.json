@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "Tarefa.Controllers.TarefaController",
+    "Method": "Add",
+    "RelativePath": "api/v{version}/Tarefa/Adicionar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarefas",
+        "Type": "Tarefa.Tabela.TarefaModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tarefa.Controllers.TarefaController",
+    "Method": "TarefaConcluida",
+    "RelativePath": "api/v{version}/Tarefa/Concluida",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nome",
+        "Type": "Tarefa.Tabela.Concluir",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tarefa.Controllers.TarefaController",
+    "Method": "Concluida",
+    "RelativePath": "api/v{version}/Tarefa/Concluida",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tarefa.Controllers.TarefaController",
+    "Method": "Tarefas",
+    "RelativePath": "api/v{version}/Tarefa/Fazer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tarefa.Controllers.TarefaController",
+    "Method": "TarefaConcluidaFalse",
+    "RelativePath": "api/v{version}/Tarefa/Pendente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nome",
+        "Type": "Tarefa.Tabela.Concluir",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tarefa.Controllers.TarefaController",
+    "Method": "Todas",
+    "RelativePath": "api/v{version}/Tarefa/Todas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
